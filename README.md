@@ -1,6 +1,6 @@
 # MineOld-loom
 我的世界1.3.1模组加载器
-```
+```Gradle
 pluginManagement {
     buildscript {
         repositories {
@@ -18,7 +18,7 @@ pluginManagement {
 ```
 来导入Gradle插件
 最后使用
-```
+```Gradle
 apply plugin: 'MINEOLD'
 ```
 来使用插件
